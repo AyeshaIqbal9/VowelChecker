@@ -27,7 +27,6 @@ function checkVowels() {
               }
         }
     }
-
     resultDiv.textContent = 'Number of vowels: ' + count;
     resultDiv.style.margin="10px";
     resultDiv.style.color = "white"; 
