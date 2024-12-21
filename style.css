@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+ .background{
+       position:absolute;
+       top:0;
+       left:0;
+       width:100vw;
+       height: 100vh; 
+        background-image:url(./vowel.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center -140px;
+        z-index: -1;
+        filter: blur(8px);
+    }
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom:20px;
+        color:black;
+    }
+
+    .content{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* This will vertically center the content */
+        height: 100vh;/*  Ensures that the content div takes full height of the viewport */
+        text-align: center;
+
+    }
+
+input{
+    /* width:19vw;
+    min-width: 200px; */
+    width:170px;
+    padding:7px;
+
+}
+button{
+    /* width:12vw;
+    min-width:120px; */
+    width:100px;
+    padding:7px;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: crimson;
+    border-color: crimson;
+    border-radius: 10px;
+    color:white;
+    font-size: 1em;
+    width: 130px;
+}
